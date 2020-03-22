@@ -3,3 +3,4 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'nokogiri'
 gem 'httparty'
+gem 'sinatra'
