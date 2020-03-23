@@ -2,7 +2,7 @@
 
 This is a quick and dirty scrape of the [CrossFit&reg; Workout of the Day archive](https://www.crossfit.com/workout) converted to the [JSON Feed](https://jsonfeed.org) format.
 
-You can subscribe to the feed at http://wod-feed.cheershopper.com
+You can subscribe to the feed at http://wod-feed.cheerschopper.com
 
 ### Why JSON Feed?
 It was the easiest to implement.
