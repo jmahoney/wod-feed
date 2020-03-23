@@ -15,7 +15,7 @@ get "/" do
   feed = {
     version: "https://jsonfeed.org/version/1",
     title: "Workout Of The Day Feed",
-    homepage_url: "https://cheerschopper.com/wod-feed",
+    home_page_url: "https://cheerschopper.com/wod-feed",
     feed_url: "http://wod-feed.cheerschopper.com",
     items: items
   }
