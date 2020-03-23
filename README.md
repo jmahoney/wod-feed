@@ -1,6 +1,6 @@
 # The CrossFit&reg; Workouts of the Day, in a feed
 
-This is a quick and dirty scrape of the [CrossFit&reg; Workout of the Day archive](https://www.crossfit.com/archive) converted to the [JSON Feed](https://jsonfeed.org) format.
+This is a quick and dirty scrape of the [CrossFit&reg; Workout of the Day archive](https://www.crossfit.com/workout) converted to the [JSON Feed](https://jsonfeed.org) format.
 
 You can subscribe to the feed at http://wod-feed.cheershopper.com
 
