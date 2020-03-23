@@ -3,15 +3,25 @@ require "httparty"
 require "sinatra"
 require "date"
 
-feed = []
+items = []
 last_fetched = Date.today - 7
 
 get "/" do
-  if last_fetched < DateTime.now - 0.5
-    feed = fetch
+  if  items.empty? || last_fetched < DateTime.now - 0.5
+    items = fetch
     last_fetched = DateTime.now
   end
-  feed.to_s
+
+  feed = {
+    version: "https://jsonfeed.org/version/1",
+    title: "Workout Of The Day Feed",
+    homepage_url: "https://cheerschopper.com/wod-feed",
+    feed_url: "http://wod-feed.cheerschopper.com",
+    items: items
+  }
+
+  content_type "application/json"
+  feed.to_json
 end
 
 def fetch
