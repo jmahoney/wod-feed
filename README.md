@@ -5,10 +5,7 @@ This is a quick and dirty scrape of the [CrossFit&reg; Workout of the Day archiv
 You can subscribe to the feed at http://wod-feed.cheerschopper.com
 
 ### Why JSON Feed?
-It was the easiest to implement.
-
-### TODO
-- add date_published field
+It was the easiest to implement. Ruby and JSON are extremely compatible.
 
 ## Contributing
 
