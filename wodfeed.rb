@@ -40,7 +40,7 @@ def fetch_and_parse
       title = header.text
       html = header.to_html
       html << row.css("div[class='col-sm-6']").css("p").to_html
-      feed << {id: permalink, content_html: html, title: title, date_published: extract_date(header.text)}
+      feed << {id: permalink, url: permalink, content_html: html, title: title, date_published: extract_date(header.text)}
     end
 
     return feed
